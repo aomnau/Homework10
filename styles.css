@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url(anime-style-clouds.jpg);
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.counter  {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 350px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.counter h3{
+    color: skyblue;
+}
+.suminfo {
+    text-align: center;
+    color: skyblue;  
+    margin-top: 20px;
+    padding: 10px ;
+}
+
+.counter >*{
+    height: 100%;
+    margin: 1px;
+    flex: 1;
+    font-size: 28px;
+}
+.counter button{
+  background-color: skyblue;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+}
+.counter button:hover{
+    background: white;
+    color: skyblue;
+}
+.suminfo button {
+    font-size: 15px;
+}
+.edit {
+    display: block;
+    text-align: center;
+    background: white;
+    border: 1px solid skyblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.name {
+    text-shadow: 1px 1px 0 #0000008a, 1px -1px 0 #0000008a, -1px 1px 0 #0000008a, 1px 1px 0 #0000008a;
+    font-size: 20px;
+    color: skyblue;
+}
+.suminfo button{
+  background-color: white;
+  color: skyblue;
+  padding: 5px 20px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  font-size: 15px ;
+}
+.suminfo button:hover{
+    background: skyblue;
+    color: white;
+}
+.photo img{
+    width: 300px;
+    height: auto;
+}
